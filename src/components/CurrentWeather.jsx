@@ -2,21 +2,21 @@ import React from "react";
 
 const CurrentWeather = ({ weatherData, unit }) => {
   const iconMap = {
-    clearDay: "/icons/clear-day.svg",
-    clearNight: "/icons/clear-night.svg",
-    partlyCloudyDay: "/icons/partly-cloudy-day.svg",
-    partlyCloudyNight: "/icons/partly-cloudy-night.svg",
-    cloudy: "/icons/cloudy.svg",
-    rain: "/icons/rain.svg",
-    mist: "/icons/mist.svg",
-    sunrise: "/icons/sunrise.svg",
-    sunset: "/icons/sunset.svg",
-    snow: "/icons/snow.svg",
-    wind: "/icons/wind.svg",
-    thunderstorm: "/icons/thunderstorm.svg",
-    humidity: "/icons/humidity.svg",
-    uvindex: "/icons/uv-index.svg",
-    pressure: "/icons/barometer.svg",
+    clearDay: "/clear-day.svg",
+    clearNight: "/clear-night.svg",
+    partlyCloudyDay: "/partly-cloudy-day.svg",
+    partlyCloudyNight: "/partly-cloudy-night.svg",
+    cloudy: "/cloudy.svg",
+    rain: "/rain.svg",
+    mist: "/mist.svg",
+    sunrise: "/sunrise.svg",
+    sunset: "/sunset.svg",
+    snow: "/snow.svg",
+    wind: "/wind.svg",
+    thunderstorm: "/thunderstorm.svg",
+    humidity: "/humidity.svg",
+    uvindex: "/uv-index.svg",
+    pressure: "/barometer.svg",
   };
 
   let icon;
