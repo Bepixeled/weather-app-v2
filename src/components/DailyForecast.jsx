@@ -8,21 +8,21 @@ const DailyForecast = ({ weatherData, unit }) => {
   const days = weatherData.days;
 
   const iconMap = {
-    clearDay: "/clear-day.svg",
-    clearNight: "/clear-night.svg",
-    partlyCloudyDay: "/partly-cloudy-day.svg",
-    partlyCloudyNight: "/partly-cloudy-night.svg",
-    cloudy: "/cloudy.svg",
-    rain: "/rain.svg",
-    mist: "/mist.svg",
-    sunrise: "/sunrise.svg",
-    sunset: "/sunset.svg",
-    snow: "/snow.svg",
-    wind: "/wind.svg",
-    thunderstorm: "/thunderstorm.svg",
-    humidity: "/humidity.svg",
-    uvindex: "/uv-index.svg",
-    pressure: "/barometer.svg",
+    clearDay: `${import.meta.env.BASE_URL}clear-day.svg`,
+    clearNight: `${import.meta.env.BASE_URL}clear-night.svg`,
+    partlyCloudyDay: `${import.meta.env.BASE_URL}partly-cloudy-day.svg`,
+    partlyCloudyNight: `${import.meta.env.BASE_URL}partly-cloudy-night.svg`,
+    cloudy: `${import.meta.env.BASE_URL}cloudy.svg`,
+    rain: `${import.meta.env.BASE_URL}rain.svg`,
+    mist: `${import.meta.env.BASE_URL}mist.svg`,
+    sunrise: `${import.meta.env.BASE_URL}sunrise.svg`,
+    sunset: `${import.meta.env.BASE_URL}sunset.svg`,
+    snow: `${import.meta.env.BASE_URL}snow.svg`,
+    wind: `${import.meta.env.BASE_URL}wind.svg`,
+    thunderstorm: `${import.meta.env.BASE_URL}thunderstorm.svg`,
+    humidity: `${import.meta.env.BASE_URL}humidity.svg`,
+    uvindex: `${import.meta.env.BASE_URL}uv-index.svg`,
+    pressure: `${import.meta.env.BASE_URL}barometer.svg`,
   };
 
   
